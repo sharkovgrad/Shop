@@ -144,3 +144,11 @@ textarea {
     height: 100px;
 }
 
+#email:focus {
+    color:  #fff;
+    background-color: #acacac;
+}
+
+input[type="text"], textarea{
+    text-transform: capitalize;
+}
