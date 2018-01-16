@@ -20,11 +20,13 @@ h3 {
     color: #000000;
 }
 
+div {
+    display: block;
+}
+
 .center {
     display: block;
     margin: 0 auto;
-    outline: 2px solid #eaeaea;
-    height: 300px;
 }
 
 .prew {
@@ -41,7 +43,6 @@ h3 {
 
 footer {
     margin-top: 35px;
-    
 }
 
 #catalog a {
@@ -70,16 +71,6 @@ footer {
     color: #5fafd9;
 }
 
-.header {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.logo {
-    margin: 15px;
-}
-
 .content {
     display: flex;
     justify-content: space-around;
@@ -94,10 +85,10 @@ footer {
 
 fieldset {
     margin-top: 35px;
+    background-color: #cccccc;
     text-align: center;
-    border: none;
 }
-    
+
 iframe {
     margin-top: 35px;
     display: flex;
@@ -128,27 +119,21 @@ iframe {
     font-weight: 800;
     list-style-image: url(img/list.png);
 }
-input {
-    height: 26px;
-    width: 30%;
-    margin-top: 5px;
-    color: #5fafd9;
-    font-size: 16px;
+
+table {
+    border: 1px solid #5fafd9;
+    border-collapse: collapse;
 }
 
-textarea {
-    margin-top: 5px;
-    color: #5fafd9;
-    font-size: 16px;
-    width: 30%;
-    height: 100px;
+td {
+    border: 1px solid #5fafd9;
 }
 
-#email:focus {
-    color:  #fff;
-    background-color: #acacac;
+td:nth-child(n+2) {
+    text-align: center;
 }
 
-input[type="text"], textarea{
-    text-transform: capitalize;
+#table_header {
+    text-align: center;
+    background-color: #eaeaea;
 }
