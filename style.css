@@ -27,6 +27,11 @@ div {
 .center {
     display: block;
     margin: 0 auto;
+    outline: 2px solid #eaeaea;
+}
+
+.center:hover {
+    outline: none;
 }
 
 .prew {
@@ -112,6 +117,7 @@ iframe {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    margin-top: 25px;
 }
 
 .header { 
@@ -130,10 +136,6 @@ iframe {
     list-style-image: url(img/list.png);
 }
 
-.char_tab {
- 
-}
-
 .table {
     width: 100%;
     height: 100%;
@@ -146,12 +148,14 @@ iframe {
 }
 
 table {
+    margin-top: 10px;
     border: 1px solid #5fafd9;
     border-collapse: collapse;
 }
 
 td {
     border: 1px solid #5fafd9;
+    padding: 5px;
 }
 
 td:nth-child(n+2) {
@@ -161,4 +165,6 @@ td:nth-child(n+2) {
 #table_header {
     text-align: center;
     background-color: #eaeaea;
+    height: 24px;
+    font-weight: 600;
 }
