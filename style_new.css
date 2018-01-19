@@ -1,0 +1,187 @@
+.container {
+    background-color: #f8f8f8;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 200px;
+    background: #a0a0a0;
+}
+
+#header_home {
+    background-image: url(img/header_home.jpg)
+}
+
+#header_catalog {
+    background-image: url(img/header_catalog.jpg)
+}
+
+#header_product {
+    background-image: url(img/header_product.jpg)
+}
+
+#header_contacts {
+    background-image: url(img/Solaris-ASF450S.jpg)
+}
+
+.logo {
+    margin-top: 70px;
+    margin-left: 70px;
+    float: left;
+    height: 56px;
+    width: 56px;
+}
+
+.menu {
+    margin-top: 133px;
+    float: right;
+    height: 50px;
+}
+
+.menu > li {
+    margin-right: 26px;
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    font-size: 24px;
+}
+
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #386a84;
+    font-family: "Tahoma", serif;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+.content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#catalog {
+    text-align: center;
+    text-decoration: none;
+}
+
+.prew {
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.prew:hover {
+    outline: 2px solid #eaeaea;
+}
+
+#catalog a {
+    text-decoration: none;
+    color: #386a84;
+}
+
+#catalog a:hover {
+    color: #5fafd9;
+}
+
+#catalog {
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: #386a84;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    outline: 2px solid #eaeaea;
+}
+
+.center:hover {
+    outline: none;
+}
+
+.welcome {
+    margin-top: 35px;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 70px;
+    background: #3e3e3e;
+    text-align: right;
+}
+
+#copyright {
+    float: right;
+    margin: 24px;
+    color: #5fafd9;
+    font-weight: 100;
+}
+
+h2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.table {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin-top: 10px;
+    border: 1px solid #5fafd9;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #5fafd9;
+    padding: 5px;
+}
+
+td:nth-child(n+2) {
+    text-align: center;
+}
+
+#table_header {
+    text-align: center;
+    background-color: #eaeaea;
+    height: 30px;
+    font-weight: 600;
+}
