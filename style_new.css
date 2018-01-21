@@ -102,14 +102,17 @@ h1 {
     color: #386a84;
 }
 
+h2 {
+    padding-left: 10px;
+    color: #000000;
+    font-size: 18px;
+    line-height: 32px;
+    background-color: #eaeaea;
+}
+
 .center {
     display: block;
     margin: 0 auto;
-    outline: 2px solid #eaeaea;
-}
-
-.center:hover {
-    outline: none;
 }
 
 .welcome {
@@ -133,18 +136,13 @@ h1 {
     font-weight: 100;
 }
 
-h2 {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #eaeaea;
-}
-
 .short {
     color: #707070;
-    font-size: 14px;
+    font-size: 22px;
     font-style: italic;
-    line-height: 16px;
+    overflow: hidden;
+    padding: 0 20px;
+
 }
 
 .long {
@@ -158,7 +156,6 @@ h2 {
 
 table {
     width: 100%;
-    margin-top: 20px;
     border: 1px solid #5fafd9;
     border-collapse: collapse;
 }
@@ -218,7 +215,6 @@ textarea {
     padding-top: 20px
 }
 
-
 fieldset {
     margin-top: 35px;
     border: none;
@@ -226,4 +222,43 @@ fieldset {
 
 iframe {
     margin-top: 50px;
+}
+
+.product {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.text {
+    padding-left: 10px;
+}
+
+.text:first-letter {}
+
+.button {
+    overflow: hidden;
+    text-align: center;
+}
+
+#button {
+    line-height: 40px;
+    padding: 15px;
+    background-color: #5fafd9;
+    border-radius: 28px;
+}
+
+.button a {
+    font-size: 22px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button a:hover {
+    color: #ffffff;
+}
+
+#button:active {
+    background-color: #386a84;
 }
