@@ -67,6 +67,12 @@
     flex-wrap: wrap;
 }
 
+#similar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 #catalog {
     text-align: center;
     text-decoration: none;
@@ -89,11 +95,6 @@
 
 #catalog a:hover {
     color: #5fafd9;
-}
-
-#catalog {
-    text-align: center;
-    text-decoration: none;
 }
 
 h1 {
@@ -155,17 +156,9 @@ h2 {
     margin-top: 25px;
 }
 
-.table {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-}
-
 table {
-    margin-top: 10px;
+    width: 100%;
+    margin-top: 20px;
     border: 1px solid #5fafd9;
     border-collapse: collapse;
 }
@@ -184,4 +177,53 @@ td:nth-child(n+2) {
     background-color: #eaeaea;
     height: 30px;
     font-weight: 600;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    height: 25px;
+    font-size: 16px;
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 273px;
+    font-size: 16px;
+}
+
+input[type="text"],
+textarea {
+    padding-left: 4px;
+    border: 1px solid #bababa;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+#email:focus {
+    color: #fff;
+    background-color: #acacac;
+}
+
+#adress {
+    padding-top: 20;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+#h1_adress {
+    padding-top: 20px
+}
+
+
+fieldset {
+    margin-top: 35px;
+    border: none;
+}
+
+iframe {
+    margin-top: 50px;
 }
